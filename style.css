@@ -169,7 +169,7 @@ body {
     & .section__sobremi--button{
         border: none;
         background-color: transparent;
-
+        cursor: cell;
         
         & img{
             width: 60px;
@@ -321,7 +321,7 @@ body {
                 padding: 1rem;
                 border-top-left-radius: 1rem;
                 border-top-right-radius: 1rem;
-
+                cursor: pointer;
             }
 
             & div img {
@@ -779,6 +779,7 @@ body {
         width: 100%;
         background-color: #071f27;
         border: solid .5px var(--primary-dark-2);
+        cursor: pointer;
 
         & h4{
             font-size: 2rem;
